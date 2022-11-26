@@ -1,0 +1,90 @@
+@media (max-width:700px){
+    .navbar{
+        gap: 10px;
+    }
+
+    .navbar-list {
+        position: absolute;
+        top: 65px;
+        left: 5%;
+        right: 5%;
+        flex-direction: column;
+        background-color: #001a33;
+        border-radius: 0px 0px 10px 10px;
+        border: 2px solid cornflowerblue;
+        border-top: 0px;
+        align-items: flex-start;
+        padding: 45px 30px;
+        gap: 25px;
+        z-index: 2;
+        display: none;
+    }
+
+    .menu-label{
+        display: flex;
+        order: 2;
+        cursor: pointer;
+        
+    }
+    .menu-label img{
+        width: 30px;
+    }
+
+    #menu-toggle:checked + .navbar-list{
+        display: flex;
+    }
+
+
+    .hero-info{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        min-width: unset;
+    }
+
+    .hero-info p{
+        width: 60%;
+        max-width: 600px;
+    }
+
+    .hero-img{
+        display: none;
+    }
+
+    #rules {
+          align-content: center;
+    }
+
+    #rules-card-container{
+        max-width: 80%;
+    }
+
+    #modder-factory{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .modder-factory-info{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #modder-factory h2{
+        max-width: 60%;
+    }
+
+    .modder-factory-card{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .modder-factory-img img{
+        height: 300px;
+    }
+
+}
