@@ -88,3 +88,33 @@
     }
 
 }
+
+@media (max-width: 540px){
+    .hero-info p{
+        width: 70%;
+        max-width: unset;
+    }
+
+    .rules h2{
+        font-size: 30px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .info h2{
+        text-align: center;
+    }
+
+    .modder-factory-img img{
+        width: 400px;
+        height: 180px;
+    }
+    .modder-factory-container{
+        width: 80%;
+    }
+
+    .modder-factory-container img{
+        width: 300px;
+        height: 180px;
+    }
+}
